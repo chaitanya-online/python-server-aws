@@ -21,7 +21,7 @@ pipeline {
             steps {
                 script {
                     sh """
-                        docker build -t python-server .
+                        docker build -t richeb/python-server .
                     """
                 }
             }
