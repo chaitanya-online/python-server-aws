@@ -1,0 +1,9 @@
+version: '3'
+services:
+  python-server:
+    image: richeb/python-aws-code
+    ports:
+      - "8000:8000"
+    command: ["python", "-m", "http.server"]
+~
+
