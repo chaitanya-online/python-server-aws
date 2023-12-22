@@ -11,7 +11,7 @@ if docker ps -a --format '{{.Names}}' | grep -q "^$CONTAINER_NAME$"; then
     docker rm "$CONTAINER_NAME"
 fi
 
-# Pull the Docker image from Docker Hub
+# Pull the Docker image from Docker Hub 
 docker pull richeb/python-aws-code:latest
 
 # Run the Docker image as a container
